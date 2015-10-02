@@ -2,7 +2,7 @@ var express = require('express');
 var path = require('path');
 
 var server = express();
-server.use(express.static(path.join(__dirname, 'public'));
+server.use(express.static(path.join(__dirname, 'public')));
 
 server.listen(3000, function(err) {  //this catches errors
   if (err) {
