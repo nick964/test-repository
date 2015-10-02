@@ -1,0 +1,14 @@
+.back {
+
+	height: 600px;
+	width: 800px;
+	margin: 0 auto;
+	background-color: #D9D9D9;
+}
+
+#card {
+	height: 100px;
+	width: 100px;
+
+	background-color: blue;
+}
